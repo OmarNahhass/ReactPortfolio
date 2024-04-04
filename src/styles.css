@@ -18,6 +18,8 @@ body {
   font-size: 20px;
   text-align: center;
   margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  min-height: 10rem;
   color: #b8b7ac;
 }
 
@@ -211,12 +213,12 @@ body {
 .sub-heading, .sub-heading p {
   display: flex;
   justify-content: center;
+  font-size: 22.5px;
   align-items: center; 
-  font-size: 22.5px; 
-  line-height: 2; 
+  width: 100%; 
+  text-align: center; 
   margin: 0; 
   padding: 0; 
-  width: 100%;
 }
 
 .buttons-container {
@@ -292,17 +294,21 @@ body {
 }
 
 .project {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px; 
+  margin-left: 20px;
   flex-basis: calc(50% - 40px);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px;
   position: relative;
   width: 100%;
   max-width: 400px;
   height: auto;
 }
+
 
 .project-video-home {
   width: 90%;
@@ -525,6 +531,7 @@ body {
   max-width: 960px;
   height: auto;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 .education-title, .education-duration, .education-courses, .courses-heading {
@@ -534,6 +541,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .education-title {

@@ -4,10 +4,12 @@ export default function Education() {
       <div className="featured-titles">Education</div>
       <div className="education-wrapper">
         <div className="education-title">
-          Concordia University Computer Science (Co-op)
+          Concordia University Computer Science
+          <br />
+          <span>(Co-op)</span>
         </div>
         <div className="education-duration">Expected Graduation: Fall 2026</div>
-        <div className="courses-heading">Relevant Courses</div>{" "}
+        <div className="courses-heading">Relevant Courses</div>
         <ul className="education-courses">
           <li>Object Oriented Programming</li>
           <li>Software Engineering</li>
