@@ -8,6 +8,7 @@ import { Routes, Route } from "react-router-dom";
 import BottomBar from "./components/BottomBar.js";
 import ScrollToTopButton from "./components/ScrollToTopButton.js";
 import Education from "./components/Education.js";
+import Resume from "./Resume.js";
 
 function App() {
   useEffect(() => {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/resume" element={<Resume />} />
       </Routes>
       <BottomBar />
       <ScrollToTopButton />

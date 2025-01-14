@@ -74,7 +74,7 @@ export default function Home() {
             </div>
           </div>
         </motion.div>
-        <div className="info-headings">About Me</div>
+        <div className="info1-headings">About Me</div>
         <div className="intro-summary">
           What's up? I'm a computer science student at the University of
           Concordia. I love learning new skills, so I tasked myself with
@@ -83,7 +83,7 @@ export default function Home() {
           directed towards learning Python and R, with the aim of deepening my
           expertise in Artificial Intelligence.
         </div>
-        <div className="info-headings">Featured Projects</div>
+        <div className="info2-headings">Featured Projects</div>
         <Link to="/projects" style={{ textDecoration: "none" }}>
           <div className="project-container">
             <motion.div
@@ -108,7 +108,7 @@ export default function Home() {
             </motion.div>
           </div>
         </Link>
-        <div className="info-headings">Skillset</div>
+        <div className="info3-headings">Skillset</div>
         <div className="box-container">
           <div className="box-row">
             <div className="box">
@@ -135,8 +135,8 @@ export default function Home() {
         </div>
         <div className="quote-container">
           <blockquote className="quote">
-            "The fruit of your own hard work is the sweetest." – Deepika
-            Padukone
+            "The fruit of your own hard work is the sweetest." <br />
+            <span>- Deepika Padukone</span>
           </blockquote>
         </div>
       </div>

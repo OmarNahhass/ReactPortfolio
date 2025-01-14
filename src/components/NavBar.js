@@ -66,6 +66,15 @@ export default function NavBar() {
             Contact
           </Link>
         </li>
+        <li>
+          <Link
+            to="/resume"
+            className="navbar-text"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Resume
+          </Link>{" "}
+        </li>
       </ul>
       <div
         className={`hamburger ${isMenuOpen ? "show" : ""}`}
